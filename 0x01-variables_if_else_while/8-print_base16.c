@@ -7,11 +7,12 @@
 int main(void)
 {
 	int num;
-	chat hexdec="0123456789abcdef";
-	for (num='0';, num <16; num++)
-	{
-		putchar(hexdec[num]);
-	}
-	putchar("\n");
+	char letter;
+	for (num = 0;, num < 10; num++)
+		putchar((num % 10) + '0');
+	for (letter = 'a'; letter <= 'f'; letter++)
+		putchar(letter);
+	
+	putchar('\n');
 	return (0);
 }

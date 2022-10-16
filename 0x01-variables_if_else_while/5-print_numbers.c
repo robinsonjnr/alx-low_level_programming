@@ -7,8 +7,8 @@
 int main(void)
 {
 	int numbers;
-	for (numbers =0; numbers <=9; numbers ++)
+	for (numbers = 0; numbers <= 9; numbers++)
 		printf("%d", numbers);
-	printf("\n");
+	printf('\n');
 	return (0);
 }
