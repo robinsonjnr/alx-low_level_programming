@@ -4,7 +4,7 @@
  *
  * Return zero if no error and non zero if errors.
  */
-int main(void)
+int main()
 {
 	char lc;
 	char uppercase;
