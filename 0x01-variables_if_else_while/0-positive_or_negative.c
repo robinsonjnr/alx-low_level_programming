@@ -19,5 +19,5 @@ int main(void)
 	else
 		printf("%d is zero\n",n);
 
-	Return (0);
+	return (0);
 }
