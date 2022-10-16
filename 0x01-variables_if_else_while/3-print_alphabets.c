@@ -8,11 +8,12 @@ int main(void)
 {
 	char lc;
 	char uppercase;
-	for (lc='a';lc <='z'; lc++)
+
+	for (lc = 'a'; lc <= 'z'; lc++)
 	{
 		putchar(lc);
 	}
-	for (uppercase='A';uppercase<='Z'; uppercase++)
+	for (uppercase = 'A'; uppercase <= 'Z'; uppercase++)
 	{
 		putchar(uppercase);
 	}
