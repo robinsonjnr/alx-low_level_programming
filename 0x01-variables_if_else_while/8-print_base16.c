@@ -1,18 +1,19 @@
 #include <stdio.h>
 /**
  * main- program entry point
- *
  * Return:0 if no error and non zero if error.
  */
 int main(void)
 {
 	int num;
-	char hexdeci ="0123456789abcdef"
+	char letter;
 
-	for (num = 0;, num < 16; num++)
-	{
-		putchar(hexdeci[num]);
-	}	
+	for (num = 0;, num < 10; num++)
+		putchar(num % 10) + '0');
+
+	for (letter = 'a'; letter <= 'f'; letter++)
+		putchar(letter);
+
 	putchar('\n');
 	return (0);
 }
