@@ -6,9 +6,12 @@
  */
 int main(void)
 {
-	int numbers;
-	for (numbers = 0; numbers <= 9; numbers++)
-		printf("%d", numbers);
-	printf('\n');
+	char numbers;
+
+	for (numbers = '0'; numbers <= '9'; numbers++)
+	{
+		putchar(numbers);
+	}
+	putchar('\n');
 	return (0);
 }
