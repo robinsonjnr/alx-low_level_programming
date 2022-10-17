@@ -1,5 +1,7 @@
 #include <stdio.h>
-/**main-proram entry point
+/**
+ * main-proram entry point
+ * Description: prints results for the combination of two numbers
  * Return:0 if sucessful and non zero if failure
  */
 int main(void)

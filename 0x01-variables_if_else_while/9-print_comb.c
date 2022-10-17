@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  * main - program entry point
+ * Description: prints results of possible combination of two numbers
  * Return:0 if non error and non zeros if errors.
  */
 int main(void)
