@@ -2,7 +2,7 @@
 /**
  * main - prints numbers from zero to nine
  *
- * Return zero if no error and non zero if no erro.
+ * Return:0 if no error and non zero if no erro.
  */
 int main(void)
 {
