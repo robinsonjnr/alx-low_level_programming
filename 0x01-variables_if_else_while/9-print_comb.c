@@ -2,11 +2,12 @@
 /**
  * main - program entry point
  *
- * Retunr 0.
+ * Retunr:0 if non error and non zeros if errors.
  */
 int main(void)
 {
 	int num;
+
 	for (num = 0; num <= 9; num++)
 	{
 		putchar((num % 10) + '0');
