@@ -14,4 +14,5 @@ void print_alphabet_x10(void);
 		for (lc = 'a'; lc <= 'z'; lc++)
 			putchar ("%c", lc);
 		putchar ('\n');
+	}
 }
