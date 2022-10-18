@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main-program prints _putchar
+ * main -program prints _putchar
  * program written by robinson jnr
  * Return (0)
  */
