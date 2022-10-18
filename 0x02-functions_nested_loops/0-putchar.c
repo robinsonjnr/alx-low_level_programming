@@ -3,7 +3,7 @@
 /**
  * main -program prints _putchar
  * program written by robinson jnr
- * Return (0)
+ * Return: 0
  */
 int main(void)
 {
