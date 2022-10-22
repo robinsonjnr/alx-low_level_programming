@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_numbers - program prints numbers from 0-9
+ * print_most_numbers - program prints numbers from 0-9
  * it gives exception to number 2 and 4
  */
-void print_numbers(void)
+void print_most_numbers(void)
 {
 	int numbers;
 
