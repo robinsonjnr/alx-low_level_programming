@@ -4,6 +4,7 @@
  * _strncat- joins two stinrs using the n bytes
  * @dest: destination of the string
  * @src: source of the string
+ * @n: number of strings to be copied
  * Return: destination
  */
 char *_strncat(char *dest, char *src, int n)
